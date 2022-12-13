@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:staging": "npx hardhat test --network goerli",
+    "coverage": "npx hardhat coverage",
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.5.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.4",
+    "hardhat-deploy": "^0.11.22",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "hardhat-gas-reporter": "^1.0.9"
+  }
+}
